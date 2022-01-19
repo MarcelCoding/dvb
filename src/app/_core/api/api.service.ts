@@ -4,8 +4,9 @@ import {HttpClient} from "@angular/common/http";
 import {environment} from "../../../environments/environment";
 import {map, Observable, take} from "rxjs";
 
-const DVB_DATE = /(\d+)([+-]\d+)/;
-const HOUR_IN_MS = 60 * 60 * 1000;
+const DVB_DATE = /(\d+)([+-])(\d{2})(\d{2})/;
+const MINS_IN_MS = 60 * 1000;
+const HOUR_IN_MS = MINS_IN_MS * 60;
 
 @Injectable({
   providedIn: 'root'
@@ -83,7 +84,15 @@ function parseDate(value: string): Date {
   }
 
   const ms = parseInt(match[1], 10);
-  const offset = parseInt(match[2], 10) / 100 * HOUR_IN_MS;
+
+  const offsetDirection = match[2];
+  const offsetHours = parseInt(match[3], 10);
+  const offsetMinutes = parseInt(match[4], 10);
+
+  let offset = offsetHours * HOUR_IN_MS + offsetMinutes * MINS_IN_MS;
+  if (offsetDirection === "-") {
+    offset *= -1;
+  }
 
   const time = ms + offset;
 

@@ -1,8 +1,8 @@
 import {Component, EventEmitter, OnDestroy, OnInit, Output} from '@angular/core';
 import {FormControl} from "@angular/forms";
 import {debounce, filter, interval, Subscription, switchMap} from "rxjs";
-import {Port} from "../_core/api/api.domain";
-import {ApiService} from "../_core/api/api.service";
+import {Port} from "../../../_core/api/api.domain";
+import {ApiService} from "../../../_core/api/api.service";
 
 @Component({
   selector: 'app-port-search',
@@ -48,6 +48,10 @@ export class PortSearchComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.searchSubscription?.unsubscribe();
+  }
+
+  public trackBy(index: number, port: Port): string {
+    return port.id;
   }
 
   public onHover(index: number): void {

@@ -8,7 +8,7 @@
 </label>
 
 <div class="autocomplete" *ngIf="results?.length">
-  <app-port-search-result *ngFor="let port of results; let index = index"
+  <app-port-search-result *ngFor="let port of results; let index = index; trackBy trackBy"
                           [port]="port"
                           [hovered]="isSelected(index)"
                           (mouseenter)="onHover(index)"
