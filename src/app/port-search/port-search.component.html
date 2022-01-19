@@ -1,0 +1,17 @@
+<label>
+  Search Port:
+  <input [formControl]="search"
+         type="text"
+         (keydown.enter)="onSubmit()"
+         (keydown.arrowDown)="onKeyDown()"
+         (keydown.arrowUp)="onKeyUp()">
+</label>
+
+<div class="autocomplete" *ngIf="results?.length">
+  <app-port-search-result *ngFor="let port of results; let index = index"
+                          [port]="port"
+                          [hovered]="isSelected(index)"
+                          (mouseenter)="onHover(index)"
+                          (click)="onSelect(port)">
+  </app-port-search-result>
+</div>

@@ -1,0 +1,19 @@
+label {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    outline: none;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-bottom: 0.1rem solid #000;
+  }
+
+  margin-bottom: 0.5rem;
+}
+
+.autocomplete {
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid #000;
+}
