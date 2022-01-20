@@ -46,7 +46,7 @@ export class PortSearchComponent implements OnInit, OnDestroy {
       });
   }
 
-  ngOnDestroy(): void {
+  public ngOnDestroy(): void {
     this.searchSubscription?.unsubscribe();
   }
 
@@ -59,6 +59,7 @@ export class PortSearchComponent implements OnInit, OnDestroy {
   }
 
   public onSelect(port: Port): void {
+    this.search.setValue(port.city ? `${port.name}, ${port.city}` : port.name);
     this.selectPort.emit(port);
   }
 
@@ -69,8 +70,7 @@ export class PortSearchComponent implements OnInit, OnDestroy {
   public onSubmit(): void {
     const port = this.results?.[this.hovered ?? 0];
     if (port) {
-      this.search.setValue(port.city ? `${port.name}, ${port.city}` : port.name);
-      this.selectPort.emit(port);
+      this.onSelect(port);
     }
   }
 
