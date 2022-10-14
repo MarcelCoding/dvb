@@ -4,7 +4,6 @@ import {mergeMap, Subscription} from "rxjs";
 import {ApiService} from "../../../_domain/api.service";
 import {Network} from "../../../_domain/domain";
 import {Element} from "../../../_core/map/map.component";
-import {ObjectEvent} from "ol/Object";
 
 @Component({
   selector: 'app-region',
