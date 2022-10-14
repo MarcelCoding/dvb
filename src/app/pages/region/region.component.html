@@ -1,1 +1,15 @@
-<app-map></app-map>
+<!--<ul>-->
+<!--  <li *ngFor="let line of data | keyvalue">-->
+<!--    <ul>-->
+<!--      <li *ngFor="let run of line.value | keyvalue">-->
+<!--        {{run.value | json}}-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </li>-->
+<!--</ul>-->
+
+<app-map *ngIf="data; else loading" [elements]="elements"></app-map>
+<ng-template #loading>
+  Loading...
+</ng-template>
+

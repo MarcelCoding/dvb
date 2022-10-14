@@ -1,0 +1,5295 @@
+{
+  "document": {
+    "schema_version": "2",
+    "date": "2022-09-12T22:47:58.123968570Z",
+    "generator": "lofi",
+    "generator_version": "0.1.0"
+  },
+  "data": {
+    "0": {
+      "1111": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.110148129999814,
+          "lon": 13.774682329999598
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.111280919999814,
+          "lon": 13.77715276999958
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.11054254999991,
+          "lon": 13.775543039999848
+        }
+      ],
+      "1208": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.06708356,
+          "lon": 13.78337266
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.06701217,
+          "lon": 13.78301308
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.06700060000001,
+          "lon": 13.78486839000011
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.0669722,
+          "lon": 13.78543154
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06718271,
+          "lon": 13.788508720000012
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06707442000001,
+          "lon": 13.785365579999912
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.06696634,
+          "lon": 13.78500522
+        }
+      ],
+      "1406": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.07729839,
+          "lon": 13.73269333
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.07700552,
+          "lon": 13.732881865
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.077920255000045,
+          "lon": 13.732083469999989
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.07700335,
+          "lon": 13.732870445
+        }
+      ],
+      "691": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.019339419999994,
+          "lon": 13.7236072525
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.018862305,
+          "lon": 13.71928646
+        }
+      ],
+      "1290": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.06201484,
+          "lon": 13.84354859
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.06197445000004,
+          "lon": 13.843858779999808
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06199892000002,
+          "lon": 13.84361470999978
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06186788000002,
+          "lon": 13.844922159999594
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06195476,
+          "lon": 13.84351461
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06208845,
+          "lon": 13.84240773
+        }
+      ],
+      "327": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 5,
+          "lat": 51.04332266,
+          "lon": 13.78737298
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 5,
+          "lat": 51.04313102,
+          "lon": 13.78860043
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 5,
+          "lat": 51.043324,
+          "lon": 13.78742161
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.04341519,
+          "lon": 13.78383077
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.04326671,
+          "lon": 13.78704776
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.04333504,
+          "lon": 13.78814775
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.04339955,
+          "lon": 13.78551291
+        }
+      ],
+      "1114": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.11801184999989,
+          "lon": 13.789023499999912
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.118209140000005,
+          "lon": 13.789155569999998
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.11914851,
+          "lon": 13.78995596
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.11928094999999,
+          "lon": 13.79001189
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.11898805999995,
+          "lon": 13.78985743999997
+        }
+      ],
+      "58": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 0,
+          "lat": 51.08481371,
+          "lon": 13.72801542
+        }
+      ],
+      "509": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.01981971,
+          "lon": 13.731222535
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.019787,
+          "lon": 13.72960395
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.01994126,
+          "lon": 13.7307816
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.01983115,
+          "lon": 13.7301453125
+        }
+      ],
+      "1225": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.06590464999999,
+          "lon": 13.8000074900002
+        }
+      ],
+      "1238": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.06712448,
+          "lon": 13.78885175000011
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 0,
+          "lat": 51.06636917000003,
+          "lon": 13.794912089999888
+        }
+      ],
+      "890": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 8,
+          "lat": 51.04771001,
+          "lon": 13.65469216
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.046285530000134,
+          "lon": 13.663528929999918
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 6,
+          "lat": 51.04909376999999,
+          "lon": 13.660975229999854
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04451996000002,
+          "lon": 13.670362640000128
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.048591960001616,
+          "lon": 13.662254739998962
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 5,
+          "lat": 51.04424955999794,
+          "lon": 13.665754000003009
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 5,
+          "lat": 51.04577807,
+          "lon": 13.66370365
+        }
+      ],
+      "811": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.04244128,
+          "lon": 13.68168928
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.042527330000055,
+          "lon": 13.680421049999897
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.04300464000012,
+          "lon": 13.68011886999996
+        }
+      ],
+      "122": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.03730817,
+          "lon": 13.7447036
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.03727665,
+          "lon": 13.74454507
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.0382235,
+          "lon": 13.74136288
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.03816712,
+          "lon": 13.74154072
+        }
+      ],
+      "826": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.046964,
+          "lon": 13.65330567
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.0477100099999,
+          "lon": 13.654692159999737
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04695387,
+          "lon": 13.653269859999984
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.048857719999944,
+          "lon": 13.658654039999885
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.04867909999998,
+          "lon": 13.657424909999792
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.04883107,
+          "lon": 13.65860351
+        }
+      ],
+      "104": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06481165000002,
+          "lon": 13.741348430000038
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.06491846,
+          "lon": 13.741115470000016
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06481165,
+          "lon": 13.74134843000001
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.06490215,
+          "lon": 13.74127295
+        }
+      ],
+      "10": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03099998,
+          "lon": 13.76111368
+        }
+      ],
+      "408": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.023181995,
+          "lon": 13.760027385
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.023931325,
+          "lon": 13.761207695
+        }
+      ],
+      "959": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.05558632000001,
+          "lon": 13.72271115999998
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 6,
+          "lat": 51.055249080000095,
+          "lon": 13.7209799600001
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.05514415,
+          "lon": 13.723121480000009
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 5,
+          "lat": 51.05524908000019,
+          "lon": 13.720979960000198
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.05503121,
+          "lon": 13.72313142
+        }
+      ],
+      "895": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.042405419999994,
+          "lon": 13.682420169999872
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04246557,
+          "lon": 13.683627219999948
+        }
+      ],
+      "465": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.02986737,
+          "lon": 13.78278421
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 0,
+          "lat": 51.02988528,
+          "lon": 13.78278075
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.0279596,
+          "lon": 13.78778561
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 0,
+          "lat": 51.029867975,
+          "lon": 13.78278241
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.0284945,
+          "lon": 13.78637988
+        }
+      ],
+      "428": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.012455808750005,
+          "lon": 13.79847618625
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.01297891625,
+          "lon": 13.79542266
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.01295133,
+          "lon": 13.79551061
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.01239084,
+          "lon": 13.79876596
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.01118213,
+          "lon": 13.79953613
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.01070495,
+          "lon": 13.79989678
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.0129734,
+          "lon": 13.79531655
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.01271934,
+          "lon": 13.79641093
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 5,
+          "lat": 51.01166503,
+          "lon": 13.79895965
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.01243307,
+          "lon": 13.79860673
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.01149233,
+          "lon": 13.79923735
+        }
+      ],
+      "450": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.03028035,
+          "lon": 13.76066577
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.029825225,
+          "lon": 13.760151355
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.029565225,
+          "lon": 13.76013309
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.0301669,
+          "lon": 13.76040638
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.02862321,
+          "lon": 13.75941339
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.02992708,
+          "lon": 13.76040686
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.03062929,
+          "lon": 13.76080692
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.03074657,
+          "lon": 13.76100476
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03210661,
+          "lon": 13.78154772
+        }
+      ],
+      "491": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.03553831,
+          "lon": 13.75568934
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.03652741,
+          "lon": 13.75321104
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03545202,
+          "lon": 13.75595435
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.036786925,
+          "lon": 13.752649865
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.036845645,
+          "lon": 13.7524294
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.03673655,
+          "lon": 13.75282729
+        }
+      ],
+      "1293": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.07467656,
+          "lon": 13.76121996
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.07481969,
+          "lon": 13.760764775
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.07479802,
+          "lon": 13.76098221
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.07617752,
+          "lon": 13.75608947
+        }
+      ],
+      "308": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.033546,
+          "lon": 13.7828451
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.03367076,
+          "lon": 13.78295698
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03419851,
+          "lon": 13.78334699
+        }
+      ],
+      "307": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.03608608,
+          "lon": 13.787165325
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.03481983,
+          "lon": 13.78397948
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03604939,
+          "lon": 13.78636878
+        }
+      ],
+      "1472": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.080783469999666,
+          "lon": 13.724398540000816
+        }
+      ],
+      "1104": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.0762934,
+          "lon": 13.75546133
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.07757279,
+          "lon": 13.752112385
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.076556895,
+          "lon": 13.755411535
+        }
+      ],
+      "1404": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.07623155,
+          "lon": 13.73320861
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.07523395,
+          "lon": 13.73456865
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 5,
+          "lat": 51.07646359,
+          "lon": 13.73310288
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.07500978,
+          "lon": 13.73542193
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.0746814,
+          "lon": 13.73667938
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.07537348,
+          "lon": 13.734058295
+        }
+      ],
+      "376": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.0535173,
+          "lon": 13.781427
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.05351363,
+          "lon": 13.78142859
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.05351742,
+          "lon": 13.78142686
+        }
+      ],
+      "1270": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.07617134,
+          "lon": 13.7560913
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.07617498,
+          "lon": 13.75609105
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07630219,
+          "lon": 13.75591469
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.07581947,
+          "lon": 13.75780412
+        }
+      ],
+      "1108": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.08673243999657,
+          "lon": 13.763414769998883
+        }
+      ],
+      "228": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04745607,
+          "lon": 13.73455979
+        }
+      ],
+      "889": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.04937018999651,
+          "lon": 13.68725643000623
+        }
+      ],
+      "835": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04201317,
+          "lon": 13.64879219
+        }
+      ],
+      "121": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.037765175,
+          "lon": 13.748006135
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.03814225,
+          "lon": 13.74718713
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.03811222,
+          "lon": 13.74616199
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.0380011,
+          "lon": 13.74741404
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.03792198,
+          "lon": 13.7457026
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.03807208,
+          "lon": 13.74737471
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.03825526,
+          "lon": 13.74648169
+        }
+      ],
+      "424": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.02318102,
+          "lon": 13.77340799
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.02490212,
+          "lon": 13.76995082
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.024893285000005,
+          "lon": 13.769996525
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.02410344,
+          "lon": 13.7716591
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.02471242,
+          "lon": 13.77045469
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.02455435,
+          "lon": 13.77079631
+        }
+      ],
+      "1291": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.063733550000045,
+          "lon": 13.82173040999983
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06365556999996,
+          "lon": 13.821652230000192
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.06379240000002,
+          "lon": 13.821370729999892
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.0638894,
+          "lon": 13.8209437
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06231219,
+          "lon": 13.82658709
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.06360147,
+          "lon": 13.82244499
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.06458677,
+          "lon": 13.8176979
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.06379819,
+          "lon": 13.82126696
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.06391217000002,
+          "lon": 13.820850389999928
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.06381120000002,
+          "lon": 13.821293389999951
+        }
+      ],
+      "1451": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.07696287,
+          "lon": 13.72585647
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.07668255,
+          "lon": 13.72748977
+        }
+      ],
+      "111": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.05939233,
+          "lon": 13.752892705
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.05969441,
+          "lon": 13.75277854
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.06036717,
+          "lon": 13.75254954
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.05953012,
+          "lon": 13.75285082
+        }
+      ],
+      "552": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03104924,
+          "lon": 13.747498685
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.0285762,
+          "lon": 13.74587792
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 5,
+          "lat": 51.02827461,
+          "lon": 13.74566367
+        }
+      ],
+      "1002": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06771950999997,
+          "lon": 13.731803260000037
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.0652452,
+          "lon": 13.7347261
+        }
+      ],
+      "425": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.01556995,
+          "lon": 13.78726619
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.01642363,
+          "lon": 13.78781559
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.01680031,
+          "lon": 13.78821126
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.01583347,
+          "lon": 13.78717227
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.01546753,
+          "lon": 13.78743657
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.01403467,
+          "lon": 13.78968121
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.01552215,
+          "lon": 13.78732207
+        }
+      ],
+      "206": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.058254290000015,
+          "lon": 13.74023270000002
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 6,
+          "lat": 51.06031323,
+          "lon": 13.73830769
+        }
+      ],
+      "561": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.019220265,
+          "lon": 13.735097295
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.01935799,
+          "lon": 13.74058529
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.01920752,
+          "lon": 13.73631622
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.01918988,
+          "lon": 13.73574731
+        }
+      ],
+      "1507": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 0,
+          "lat": 51.08883061,
+          "lon": 13.73121261
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.08768887,
+          "lon": 13.73632004
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 0,
+          "lat": 51.08847407499999,
+          "lon": 13.733921845
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.08825106,
+          "lon": 13.73483269
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.08728462749998,
+          "lon": 13.73737534750003
+        }
+      ],
+      "381": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.04375881,
+          "lon": 13.78148729
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 5,
+          "lat": 51.04356679,
+          "lon": 13.78241291
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.0434797,
+          "lon": 13.78285783
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.0447584,
+          "lon": 13.777539035
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 5,
+          "lat": 51.04348297,
+          "lon": 13.78284984
+        }
+      ],
+      "1209": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06700609999998,
+          "lon": 13.78655225999977
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.06710924999998,
+          "lon": 13.790194440001626
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.06708089000001,
+          "lon": 13.788661940000068
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.067056890000025,
+          "lon": 13.788439990000072
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.06709426,
+          "lon": 13.78880666
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.06689475,
+          "lon": 13.78622439
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.06714701999999,
+          "lon": 13.788485859999987
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.06709160999999,
+          "lon": 13.787914169999931
+        }
+      ],
+      "298": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.058116949997896,
+          "lon": 13.745900520000006
+        }
+      ],
+      "1226": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06231674000001,
+          "lon": 13.838921479999923
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.062375999999986,
+          "lon": 13.837299249999749
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06206436,
+          "lon": 13.84274803
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.06228330999999,
+          "lon": 13.838359110000226
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.06228331,
+          "lon": 13.83835911
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.062331840000006,
+          "lon": 13.838670109999924
+        }
+      ],
+      "1203": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.06326615,
+          "lon": 13.75711196
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.06323979,
+          "lon": 13.75681153
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.063239790000026,
+          "lon": 13.75681153000021
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.06314490000001,
+          "lon": 13.755827490000105
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.06345597999986,
+          "lon": 13.75806694999913
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06342938999998,
+          "lon": 13.757676239999851
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06360739,
+          "lon": 13.75898462
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06345597999997,
+          "lon": 13.758066949999826
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.06321276999998,
+          "lon": 13.75712895000001
+        }
+      ],
+      "102": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.063096879999875,
+          "lon": 13.737100790000136
+        }
+      ],
+      "841": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.03891369,
+          "lon": 13.63799846
+        }
+      ],
+      "201": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.04283546,
+          "lon": 13.736350625
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.04243077,
+          "lon": 13.73601345
+        }
+      ],
+      "1008": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 5,
+          "lat": 51.080445399999974,
+          "lon": 13.714006800000169
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 5,
+          "lat": 51.08120629999997,
+          "lon": 13.710868290000096
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 5,
+          "lat": 51.0806044,
+          "lon": 13.7131171
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.080633599999985,
+          "lon": 13.712999200000043
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07998213,
+          "lon": 13.71426038
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.08051903,
+          "lon": 13.71459487999994
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.08053013999999,
+          "lon": 13.71429626
+        }
+      ],
+      "480": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.02285592,
+          "lon": 13.76477515
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.02233837,
+          "lon": 13.76585528
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 0,
+          "lat": 51.02304543,
+          "lon": 13.76726303
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.02233188,
+          "lon": 13.76568862
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.02277452,
+          "lon": 13.76491596
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.02323865,
+          "lon": 13.76754388
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.02274006,
+          "lon": 13.76496763
+        }
+      ],
+      "703": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.03440333,
+          "lon": 13.70346322
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.03480015,
+          "lon": 13.70376584
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.03445156,
+          "lon": 13.703503345
+        }
+      ],
+      "925": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.061404329999874,
+          "lon": 13.690699650000006
+        }
+      ],
+      "205": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.05724118999988,
+          "lon": 13.745900960000032
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.057589369999526,
+          "lon": 13.74597651000007
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.05728016,
+          "lon": 13.74506282
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.05758936999968,
+          "lon": 13.745976510000046
+        }
+      ],
+      "693": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.019614255,
+          "lon": 13.726399435
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.01921039,
+          "lon": 13.722679405
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.01943941,
+          "lon": 13.72478578
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.01945525,
+          "lon": 13.724961705
+        }
+      ],
+      "1257": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.07387703,
+          "lon": 13.76362643
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.07322866,
+          "lon": 13.76560436
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.07337116,
+          "lon": 13.76509057
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07456399,
+          "lon": 13.76143673
+        }
+      ],
+      "222": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 0,
+          "lat": 51.0517514,
+          "lon": 13.73349141
+        }
+      ],
+      "1105": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.08023006,
+          "lon": 13.75889813
+        }
+      ],
+      "1113": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.115361849999815,
+          "lon": 13.786034849999464
+        }
+      ],
+      "1116": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.1161002299999,
+          "lon": 13.786966309999883
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.11473543,
+          "lon": 13.78482602
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.116100229999795,
+          "lon": 13.786966309999764
+        }
+      ],
+      "230": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04703056,
+          "lon": 13.73674159
+        }
+      ],
+      "83": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 9,
+          "lat": 51.04549417000056,
+          "lon": 13.651014030000438
+        }
+      ],
+      "362": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06025011,
+          "lon": 13.77707843
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.05889442,
+          "lon": 13.77720355
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 0,
+          "lat": 51.06034419,
+          "lon": 13.77706622
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 0,
+          "lat": 51.06034445,
+          "lon": 13.777067175
+        }
+      ],
+      "611": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.01806841,
+          "lon": 13.70596165
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.01817975,
+          "lon": 13.70433507
+        }
+      ],
+      "852": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.05069903,
+          "lon": 13.71354552
+        }
+      ],
+      "1202": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.0630933800001,
+          "lon": 13.75548338000048
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.06302633,
+          "lon": 13.75294294
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06320122999976,
+          "lon": 13.756477419998834
+        }
+      ],
+      "704": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.0318327,
+          "lon": 13.7019638
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.0328284,
+          "lon": 13.702222905
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.03132747,
+          "lon": 13.70181867
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.03163129,
+          "lon": 13.70193349
+        }
+      ],
+      "1115": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.11556713999994,
+          "lon": 13.786625279999956
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.11788410999996,
+          "lon": 13.78892268999997
+        }
+      ],
+      "892": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.04337792000009,
+          "lon": 13.679971499999988
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.04315096000004,
+          "lon": 13.68008497999999
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.04318605,
+          "lon": 13.68006015
+        }
+      ],
+      "657": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.02971329,
+          "lon": 13.7064831
+        }
+      ],
+      "1117": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.12699844,
+          "lon": 13.79239799
+        }
+      ],
+      "402": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.03577339,
+          "lon": 13.74933233
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.036981297500006,
+          "lon": 13.7490305825
+        }
+      ],
+      "1459": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.08117393999999,
+          "lon": 13.71982980999997
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.08128266,
+          "lon": 13.72015958
+        }
+      ],
+      "451": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.03413663,
+          "lon": 13.75927785
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.03418135,
+          "lon": 13.75915944
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.0329998,
+          "lon": 13.76213941
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.03433349,
+          "lon": 13.75881407
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.03330855,
+          "lon": 13.76130873
+        }
+      ],
+      "555": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.01927649,
+          "lon": 13.741244695
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.01906429,
+          "lon": 13.74146779
+        }
+      ],
+      "1206": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.06779316,
+          "lon": 13.77626764
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.0697676,
+          "lon": 13.77526522
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.067792425,
+          "lon": 13.776263794999998
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06713810000008,
+          "lon": 13.779033929999756
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06746818999997,
+          "lon": 13.777188359999853
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06753429,
+          "lon": 13.7762423
+        }
+      ],
+      "1102": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.07142619,
+          "lon": 13.75101229
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07037003,
+          "lon": 13.754051085
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.07122972,
+          "lon": 13.75136682
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.071367795,
+          "lon": 13.75115373
+        }
+      ],
+      "662": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.01835518,
+          "lon": 13.70776643
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.018164095,
+          "lon": 13.70701037
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.01807582,
+          "lon": 13.70624862
+        }
+      ],
+      "115": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.05189852,
+          "lon": 13.7580055
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.0522184,
+          "lon": 13.75811693
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.05499098,
+          "lon": 13.75704022
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.05393318,
+          "lon": 13.75817085
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.05337965,
+          "lon": 13.75842747
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.05583794,
+          "lon": 13.75609217
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.05453146,
+          "lon": 13.7575283
+        }
+      ],
+      "393": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.045485,
+          "lon": 13.775228075
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.04520109,
+          "lon": 13.77587905
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.04487012,
+          "lon": 13.7771193
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.04482352,
+          "lon": 13.77727991
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.04472494,
+          "lon": 13.77772282
+        }
+      ],
+      "861": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.04895460000001,
+          "lon": 13.695578760000249
+        }
+      ],
+      "91": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.05448742,
+          "lon": 13.78123547
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.05376436,
+          "lon": 13.78135069
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.055976645,
+          "lon": 13.78103704
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.05495099,
+          "lon": 13.78120507
+        }
+      ],
+      "112": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.05671297,
+          "lon": 13.75514699
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.05858601,
+          "lon": 13.753166885
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.05887651,
+          "lon": 13.75306002
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.058488455,
+          "lon": 13.75324307
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.05734795,
+          "lon": 13.75445438
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.05898308,
+          "lon": 13.75302269
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.05749566,
+          "lon": 13.75430066
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.05661632,
+          "lon": 13.75525777
+        }
+      ],
+      "809": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.04270611999971,
+          "lon": 13.690994579997303
+        }
+      ],
+      "804": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.04373849,
+          "lon": 13.70230629
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.04244845,
+          "lon": 13.70347968
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.04367413,
+          "lon": 13.70271477
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.04370789,
+          "lon": 13.704060225
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.0430250175,
+          "lon": 13.7038180125
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.0437634075,
+          "lon": 13.70320716
+        }
+      ],
+      "126": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.040979609999994,
+          "lon": 13.73447597875
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.0405735,
+          "lon": 13.734215254999999
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.0406251,
+          "lon": 13.734214985000001
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.041352285,
+          "lon": 13.734850564999995
+        }
+      ],
+      "1254": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.0676816,
+          "lon": 13.75481284
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.06969172,
+          "lon": 13.75609556
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.07012548,
+          "lon": 13.75489534
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.07005677,
+          "lon": 13.75515997
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.066028900000006,
+          "lon": 13.753881035
+        }
+      ],
+      "109": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.06287586,
+          "lon": 13.7520696
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 5,
+          "lat": 51.06211782,
+          "lon": 13.75210749
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.06300512,
+          "lon": 13.75261279
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 5,
+          "lat": 51.06263,
+          "lon": 13.75224606
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.06130448,
+          "lon": 13.75233992
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 6,
+          "lat": 51.06351735,
+          "lon": 13.74761081
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.06047091,
+          "lon": 13.75253634
+        }
+      ],
+      "324": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04718853,
+          "lon": 13.77210112
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.04656643,
+          "lon": 13.77233769
+        }
+      ],
+      "951": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.056355900000035,
+          "lon": 13.72293395000006
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.05807618000019,
+          "lon": 13.72404545999965
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.05776274000048,
+          "lon": 13.724622279999997
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 5,
+          "lat": 51.05844517,
+          "lon": 13.72273252
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.057218730000024,
+          "lon": 13.72443827000004
+        }
+      ],
+      "831": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.040042869999894,
+          "lon": 13.64555279999944
+        }
+      ],
+      "401": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03690501,
+          "lon": 13.75230567
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.037494315,
+          "lon": 13.748944755
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.03760319,
+          "lon": 13.7483045
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.03747518,
+          "lon": 13.7485766
+        }
+      ],
+      "1623": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 5,
+          "lat": 51.04373494,
+          "lon": 13.70274604
+        }
+      ],
+      "1253": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06583843,
+          "lon": 13.753696875
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06340031,
+          "lon": 13.75212403
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.06583524,
+          "lon": 13.75370985
+        }
+      ],
+      "998": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.05871656000004,
+          "lon": 13.721824829999866
+        }
+      ],
+      "1147": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.073611535,
+          "lon": 13.740474315
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.07318813,
+          "lon": 13.74208412
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.07354634,
+          "lon": 13.7407005
+        }
+      ],
+      "1210": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.06385289,
+          "lon": 13.8124077
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06405832000012,
+          "lon": 13.81226759999994
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.064689689999994,
+          "lon": 13.815492749999844
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.063968819999914,
+          "lon": 13.812283140000089
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.064319210000136,
+          "lon": 13.811660099999523
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.0642462,
+          "lon": 13.81141996
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.06454766,
+          "lon": 13.81028858
+        }
+      ],
+      "282": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.04366403875,
+          "lon": 13.7372695
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04414245,
+          "lon": 13.73800621
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.04592239,
+          "lon": 13.74031107
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.043860734999996,
+          "lon": 13.737336290000002
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.045747025,
+          "lon": 13.740080475
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.044322295,
+          "lon": 13.738198915
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.04368583,
+          "lon": 13.73729431
+        }
+      ],
+      "1006": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.07830551999995,
+          "lon": 13.715431320000032
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.079091429999814,
+          "lon": 13.714963670000158
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.077686769999936,
+          "lon": 13.716323970000133
+        }
+      ],
+      "1220": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06553006,
+          "lon": 13.77658665
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.06616308000009,
+          "lon": 13.769609130000273
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.065778745,
+          "lon": 13.776560325
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.06518326,
+          "lon": 13.76600756
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.066313090000186,
+          "lon": 13.77021183000073
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06678972,
+          "lon": 13.77433319
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06502288,
+          "lon": 13.77661855
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.065874450000045,
+          "lon": 13.768706480000146
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.06545534000004,
+          "lon": 13.766932140000142
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06572768,
+          "lon": 13.7765661
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.0635282,
+          "lon": 13.77677932
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.06616308,
+          "lon": 13.76960913
+        }
+      ],
+      "1194": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.12799417999992,
+          "lon": 13.79285486999995
+        }
+      ],
+      "403": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.0335487,
+          "lon": 13.7490769125
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.033835135,
+          "lon": 13.749207855000002
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03568637,
+          "lon": 13.74933031
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.03241706,
+          "lon": 13.74834281
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.03509143,
+          "lon": 13.749314
+        }
+      ],
+      "107": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 7,
+          "lat": 51.06321963,
+          "lon": 13.75042069
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 6,
+          "lat": 51.06349348,
+          "lon": 13.74758852
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 6,
+          "lat": 51.06351735,
+          "lon": 13.747610810000005
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.06359863000001,
+          "lon": 13.74778904999997
+        }
+      ],
+      "1271": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.071659715,
+          "lon": 13.769713575
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.07162751,
+          "lon": 13.77017138
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07235607,
+          "lon": 13.76842892
+        }
+      ],
+      "123": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.03977611,
+          "lon": 13.73708558
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.03872726625,
+          "lon": 13.73998027625
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.03891298,
+          "lon": 13.73938887
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.03858195,
+          "lon": 13.74037617
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.0388727,
+          "lon": 13.73950537
+        }
+      ],
+      "454": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.03116493,
+          "lon": 13.78060362
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.031333,
+          "lon": 13.78073466
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.0324854,
+          "lon": 13.7819011
+        }
+      ],
+      "1014": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.07079764,
+          "lon": 13.72886121
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.07261953999984,
+          "lon": 13.7255072900002
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.0708328,
+          "lon": 13.72867901
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.07094409999993,
+          "lon": 13.728483100000116
+        }
+      ],
+      "1408": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.08131428000015,
+          "lon": 13.731245479999933
+        }
+      ],
+      "860": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.04994198000058,
+          "lon": 13.700331120002316
+        }
+      ],
+      "195": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.041078400000025,
+          "lon": 13.73286978999994
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.04130553,
+          "lon": 13.732469179999995
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.04130272000001,
+          "lon": 13.732408159999972
+        }
+      ],
+      "701": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.04014453,
+          "lon": 13.70452222
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.03778685,
+          "lon": 13.70530949
+        }
+      ],
+      "1295": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.06187485,
+          "lon": 13.83139532
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06213214999998,
+          "lon": 13.83444850999988
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.061872099999995,
+          "lon": 13.831618379999831
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06205552000002,
+          "lon": 13.830392149999904
+        }
+      ],
+      "1409": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 6,
+          "lat": 51.08445422,
+          "lon": 13.72771567
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 6,
+          "lat": 51.08168497750003,
+          "lon": 13.726152032500016
+        }
+      ],
+      "671": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.021982835,
+          "lon": 13.7113187375
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.0222513075,
+          "lon": 13.7126694225
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.02161118,
+          "lon": 13.7100215925
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.02058846,
+          "lon": 13.70740875
+        }
+      ],
+      "120": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.04055276,
+          "lon": 13.7493823
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.0391005,
+          "lon": 13.747993135
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.04302163,
+          "lon": 13.751857525
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.04156988,
+          "lon": 13.75037798
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.04241182,
+          "lon": 13.75123313
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.043225879999994,
+          "lon": 13.752062655
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.04172219,
+          "lon": 13.75053349
+        }
+      ],
+      "130": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.04456697000122,
+          "lon": 13.723142409996868
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.04261014000007,
+          "lon": 13.728435979999787
+        }
+      ],
+      "670": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.022211595,
+          "lon": 13.716911785
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.02218577,
+          "lon": 13.71789697
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.022461165,
+          "lon": 13.71501753
+        }
+      ],
+      "92": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.05896576,
+          "lon": 13.78089586
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.05855463,
+          "lon": 13.78085203
+        }
+      ],
+      "127": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.0418432,
+          "lon": 13.73042914
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.04130272,
+          "lon": 13.73240816
+        }
+      ],
+      "1471": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07676854,
+          "lon": 13.73044638
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.076421165,
+          "lon": 13.728758995
+        }
+      ],
+      "1230": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06704178999997,
+          "lon": 13.786933439999409
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.067056890000025,
+          "lon": 13.788439990000072
+        }
+      ],
+      "957": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.054854350000085,
+          "lon": 13.720515370000124
+        }
+      ],
+      "802": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.04646226,
+          "lon": 13.71297844
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.0469823,
+          "lon": 13.71365946
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.04524202999987,
+          "lon": 13.710890769999793
+        }
+      ],
+      "434": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.01715012,
+          "lon": 13.78478697
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.01760209,
+          "lon": 13.78401695
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.01917859,
+          "lon": 13.78112251
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.01765869,
+          "lon": 13.78388358
+        }
+      ],
+      "1554": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.087604595,
+          "lon": 13.72974331
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.08881304,
+          "lon": 13.73050371
+        }
+      ],
+      "231": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.04703666499999,
+          "lon": 13.73877891
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.04702571,
+          "lon": 13.73805385
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.04701793,
+          "lon": 13.7395726
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.04704152,
+          "lon": 13.73764842
+        }
+      ],
+      "1004": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07428343999993,
+          "lon": 13.723308570000093
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.07401569,
+          "lon": 13.7236945
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.07432366,
+          "lon": 13.723313899999996
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.07450799999996,
+          "lon": 13.722991700000073
+        }
+      ],
+      "1258": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.07021743,
+          "lon": 13.773998855
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.0713088,
+          "lon": 13.77106078
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.07017957,
+          "lon": 13.77412671
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.06977771,
+          "lon": 13.77526603
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.0697802,
+          "lon": 13.77524278
+        }
+      ],
+      "118": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.050592765000005,
+          "lon": 13.757531185
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.04712125,
+          "lon": 13.75575105
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.05024152,
+          "lon": 13.75740196
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.049632625,
+          "lon": 13.757170085
+        }
+      ],
+      "833": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.04925448,
+          "lon": 13.68817285
+        }
+      ],
+      "202": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 5,
+          "lat": 51.04703051,
+          "lon": 13.73929219
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 5,
+          "lat": 51.0465696,
+          "lon": 13.74102427
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.04701994,
+          "lon": 13.73980692
+        }
+      ],
+      "476": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.02423234,
+          "lon": 13.76175787
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.02519027,
+          "lon": 13.761527435
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.02298786,
+          "lon": 13.7646477
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.024703515,
+          "lon": 13.76196881
+        }
+      ],
+      "1423": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.07639812,
+          "lon": 13.72940589
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.0768048,
+          "lon": 13.73053639
+        }
+      ],
+      "1227": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06199718999995,
+          "lon": 13.830691540000393
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.06231831999999,
+          "lon": 13.836381879999882
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06224015000001,
+          "lon": 13.839967809999823
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06183846999998,
+          "lon": 13.832674819999834
+        }
+      ],
+      "606": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.02939931,
+          "lon": 13.70709184
+        }
+      ],
+      "207": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.062371509999586,
+          "lon": 13.737471460000206
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.06180246999987,
+          "lon": 13.73765339000004
+        }
+      ],
+      "1205": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.06437568000014,
+          "lon": 13.763246680000604
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.06415015000001,
+          "lon": 13.762197999999987
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.06416349,
+          "lon": 13.762097809999984
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.06402229,
+          "lon": 13.76174081
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.063702020000115,
+          "lon": 13.75946787000066
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.06445522,
+          "lon": 13.76354379
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.06407915,
+          "lon": 13.76198138
+        }
+      ],
+      "426": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.01294211,
+          "lon": 13.79569927
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.01299455,
+          "lon": 13.79551622
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.01311809,
+          "lon": 13.7942776
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.013413285,
+          "lon": 13.7908247525
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.01325655,
+          "lon": 13.79152495
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.01431078,
+          "lon": 13.78880769
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.01377819,
+          "lon": 13.79028627
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.0134737665625,
+          "lon": 13.790782113125
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.01342659,
+          "lon": 13.79019847
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.01373909,
+          "lon": 13.79026132
+        }
+      ],
+      "421": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.02762595,
+          "lon": 13.75989176
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.02738021,
+          "lon": 13.75987678
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.0283958,
+          "lon": 13.75932087
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.02555315,
+          "lon": 13.7616846
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.03022009,
+          "lon": 13.76045925
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.02724625,
+          "lon": 13.76000007
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.02762314,
+          "lon": 13.75989922
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 3,
+          "lat": 51.02762643,
+          "lon": 13.759888365
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.027936715,
+          "lon": 13.75935469
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.02932375,
+          "lon": 13.75980322
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.02853134,
+          "lon": 13.75923394
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.02762574,
+          "lon": 13.75988735
+        }
+      ],
+      "292": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.04525044,
+          "lon": 13.73946406
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.04627356,
+          "lon": 13.74082363
+        }
+      ],
+      "1094": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.08244119,
+          "lon": 13.70351786
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.08218832,
+          "lon": 13.69917367
+        }
+      ],
+      "1118": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.10730952999997,
+          "lon": 13.772522799999969
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.10919172999982,
+          "lon": 13.77388315999992
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.10755025,
+          "lon": 13.77275619
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.10789789,
+          "lon": 13.77303433
+        }
+      ],
+      "133": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04885127000003,
+          "lon": 13.720456189999949
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.04893935,
+          "lon": 13.718354019999705
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.04881995,
+          "lon": 13.72052397
+        }
+      ],
+      "837": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.04001583000001,
+          "lon": 13.645635590000058
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04030558000003,
+          "lon": 13.64698009000008
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.04043330000003,
+          "lon": 13.647235080000076
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.0394245,
+          "lon": 13.6416878
+        }
+      ],
+      "1154": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.07757291,
+          "lon": 13.75211243
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07710572,
+          "lon": 13.75141241
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.07739877,
+          "lon": 13.7505485
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.07744756,
+          "lon": 13.75198033
+        }
+      ],
+      "1407": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.07862404000026,
+          "lon": 13.732623259999922
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.07989586000026,
+          "lon": 13.73177575999985
+        }
+      ],
+      "413": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 6,
+          "lat": 51.010118649999995,
+          "lon": 13.80073784
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 5,
+          "lat": 51.00995595,
+          "lon": 13.80101219
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 5,
+          "lat": 51.01003892,
+          "lon": 13.80086763
+        }
+      ],
+      "891": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 6,
+          "lat": 51.045511380000086,
+          "lon": 13.6794117000004
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 6,
+          "lat": 51.04586006000011,
+          "lon": 13.679780610000012
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 6,
+          "lat": 51.0455905,
+          "lon": 13.67958727
+        }
+      ],
+      "1401": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.06636616,
+          "lon": 13.7394625
+        }
+      ],
+      "363": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.05351293,
+          "lon": 13.78142881
+        }
+      ],
+      "1504": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.07397483,
+          "lon": 13.739136375
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.073451565,
+          "lon": 13.74109337
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.07388352,
+          "lon": 13.73947684
+        }
+      ],
+      "806": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.04370094,
+          "lon": 13.69814286
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.043683389999984,
+          "lon": 13.69767945999958
+        }
+      ],
+      "1213": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06183270000003,
+          "lon": 13.850161529999818
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.06180507,
+          "lon": 13.84857467999997
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.06186813000001,
+          "lon": 13.846914209999731
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.06187917,
+          "lon": 13.849010169999904
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06187917,
+          "lon": 13.84901017
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.061857480000015,
+          "lon": 13.848534600000017
+        }
+      ],
+      "438": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 0,
+          "lat": 51.019741005,
+          "lon": 13.78003901
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 0,
+          "lat": 51.02088841,
+          "lon": 13.7778328
+        }
+      ],
+      "1151": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.07201742,
+          "lon": 13.74707837
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.0719707,
+          "lon": 13.74738147
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.07193997,
+          "lon": 13.74761646
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.07210112,
+          "lon": 13.74673266
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.07215745,
+          "lon": 13.74654627
+        }
+      ],
+      "823": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 0,
+          "lat": 51.04644884,
+          "lon": 13.67983544
+        }
+      ],
+      "610": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 6,
+          "lat": 51.01948868,
+          "lon": 13.72536354
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 6,
+          "lat": 51.019703975,
+          "lon": 13.727937195
+        }
+      ],
+      "467": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 2,
+          "lat": 51.03079871,
+          "lon": 13.76104176
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.03281756,
+          "lon": 13.76253249
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.03156315,
+          "lon": 13.76174915
+        }
+      ],
+      "607": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.02873321,
+          "lon": 13.70665227
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.02841116,
+          "lon": 13.70735272
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.02881098,
+          "lon": 13.70663642
+        }
+      ],
+      "433": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.01976461,
+          "lon": 13.77999272
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 1,
+          "lat": 51.01969833,
+          "lon": 13.78021318
+        }
+      ],
+      "119": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 3,
+          "lat": 51.04573537500001,
+          "lon": 13.754631055
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.04591002,
+          "lon": 13.75481428
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.04530773,
+          "lon": 13.75418398
+        }
+      ],
+      "1007": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.07980361,
+          "lon": 13.71438128
+        }
+      ],
+      "1003": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.06889081999984,
+          "lon": 13.730739680000127
+        }
+      ],
+      "839": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.040660699999975,
+          "lon": 13.62625304000002
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.04069612,
+          "lon": 13.62613444
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 2,
+          "lat": 51.04073691,
+          "lon": 13.62702814
+        }
+      ],
+      "1062": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 4,
+          "lat": 51.08227686,
+          "lon": 13.70679541
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.08251971999999,
+          "lon": 13.705923750000109
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 4,
+          "lat": 51.08220042,
+          "lon": 13.70699178
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 4,
+          "lat": 51.08207915,
+          "lon": 13.70747523
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 4,
+          "lat": 51.082415270000006,
+          "lon": 13.703072970000129
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 3,
+          "lat": 51.08221051,
+          "lon": 13.70694859000002
+        }
+      ],
+      "1075": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 2,
+          "lat": 51.08199172,
+          "lon": 13.69628566
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 3,
+          "direction": 2,
+          "lat": 51.08194769,
+          "lon": 13.69572729
+        }
+      ],
+      "1274": [
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 3,
+          "lat": 51.06681894,
+          "lon": 13.77401587
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 0,
+          "direction": 1,
+          "lat": 51.067433885,
+          "lon": 13.77595675
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 1,
+          "direction": 1,
+          "lat": 51.06712032249999,
+          "lon": 13.774655792499942
+        },
+        {
+          "dhid": null,
+          "name": null,
+          "request_status": 2,
+          "direction": 1,
+          "lat": 51.06713217,
+          "lon": 13.77411895
+        }
+      ]
+    }
+  },
+  "meta": {
+    "0": {
+      "frequency": null,
+      "city_name": null,
+      "type_r09": null,
+      "lat": null,
+      "lon": null
+    }
+  }
+}
