@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  api: 'https://api.dvb.solutions'
+  api: "https://api.dvb.solutions",
 };
 
 /*

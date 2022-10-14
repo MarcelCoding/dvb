@@ -34,7 +34,19 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "semi": "warn",
+        "object-shorthand": "warn",
+        "prefer-const": "warn",
+        "quotes": [
+          "warn",
+          "double"
+        ],
+        "comma-dangle": [
+          "warn",
+          "always-multiline"
+        ],
+        "no-unused-vars": "off"
       }
     },
     {

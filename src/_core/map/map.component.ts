@@ -1,9 +1,9 @@
-import {ChangeDetectionStrategy, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import Map from 'ol/Map';
-import View from 'ol/View';
-import OSM from 'ol/source/OSM';
-import TileLayer from 'ol/layer/Tile';
+import {ChangeDetectionStrategy, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges} from "@angular/core";
+import {CommonModule} from "@angular/common";
+import Map from "ol/Map";
+import View from "ol/View";
+import OSM from "ol/source/OSM";
+import TileLayer from "ol/layer/Tile";
 import RenderEvent from "ol/render/Event";
 import {getVectorContext} from "ol/render";
 import {Point} from "ol/geom";
@@ -18,11 +18,11 @@ export interface Element {
 }
 
 @Component({
-  selector: 'app-map',
+  selector: "app-map",
   standalone: true,
   imports: [CommonModule],
-  template: '',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  template: "",
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MapComponent implements OnInit {
 
@@ -31,17 +31,17 @@ export class MapComponent implements OnInit {
   private map: Map | undefined;
 
   constructor(
-    private elementRef: ElementRef<HTMLElement>
+    private elementRef: ElementRef<HTMLElement>,
   ) {
   }
 
   ngOnInit(): void {
     const tileLayer = new TileLayer({source: new OSM()});
-    tileLayer.on('postrender', event => this.onPostRender(event));
+    tileLayer.on("postrender", event => this.onPostRender(event));
 
     this.map = new Map({
       view: new View({
-        center: transform([13.7325942, 51.0510431], 'EPSG:4326', 'EPSG:3857'),
+        center: transform([13.7325942, 51.0510431], "EPSG:4326", "EPSG:3857"),
         zoom: 12.5,
       }),
       layers: [tileLayer],
@@ -57,21 +57,21 @@ export class MapComponent implements OnInit {
 
     const context = getVectorContext(event);
 
-    for (let element of this.elements) {
+    for (const element of this.elements) {
       context.setStyle(new Style({
         image: new CircleStyle({
           radius: 10,
-          fill: new Fill({color: 'yellow'}),
-          stroke: new Stroke({color: 'red', width: 1}),
+          fill: new Fill({color: "yellow"}),
+          stroke: new Stroke({color: "red", width: 1}),
         }),
         text: new Text({
           text: element.text,
-          font: 'system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'
+          font: "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
         }),
       }));
 
-      const circle = new Point(transform([element.lon, element.lat], 'EPSG:4326', 'EPSG:3857'));
-      context.drawPoint(circle)
+      const circle = new Point(transform([element.lon, element.lat], "EPSG:4326", "EPSG:3857"));
+      context.drawPoint(circle);
     }
   }
 }
