@@ -1,6 +1,6 @@
-import {AfterViewInit, Component, OnDestroy, OnInit, ViewChild} from "@angular/core";
+import {AfterViewInit, Component, OnDestroy, ViewChild} from "@angular/core";
 import {ActivatedRoute, Router} from "@angular/router";
-import {catchError, of, Subscription, switchMap, throwError} from "rxjs";
+import {Subscription, switchMap, tap} from "rxjs";
 import {Region, RegionService} from "../../../_domain/region.service";
 import {MapComponent} from "../../../_core/map/map.component";
 
@@ -28,10 +28,23 @@ export class RegionComponent implements AfterViewInit, OnDestroy {
   }
 
   ngAfterViewInit(): void {
-    this.route.params
-      .pipe(switchMap(({id}) => this.regionService.loadRegion(id)))
+    this.subscription = this.route.params
+      .pipe(
+        switchMap(({id}) => this.regionService.loadRegion(id)),
+        tap(region => {
+          const {x, z, zoom} = this.route.snapshot.queryParams;
+
+          if (x && z && zoom) {
+            this.map.move([x, z], zoom);
+          }
+          else {
+            this.map.move([region.x, region.z], region.zoom);
+          }
+        }),
+        switchMap(() => this.map.location),
+        switchMap(data => this.router.navigate([], {queryParams: data, queryParamsHandling: "merge"})),
+      )
       .subscribe({
-        next: region => this.map.move(region.lat, region.lon, region.zoom),
         error: error => {
           if (error === "NOT_FOUND") this.router.navigate(["/"]).then();
           else console.error(error);
