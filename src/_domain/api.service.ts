@@ -2,7 +2,8 @@ import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
 import {environment} from "../environments/environment";
 import {map, Observable, of, switchMap, tap} from "rxjs";
-import {Junction, Network, Regions} from "./domain";
+import {Junction, Network, Regions, WebsocketEvent} from "./domain";
+import {webSocket, WebSocketSubject} from "rxjs/webSocket";
 
 @Injectable({
   providedIn: "root",
@@ -11,15 +12,30 @@ export class ApiService {
 
   private regions: Regions | undefined;
   private regionId: number | undefined;
-  private network: Network | undefined;
+  network: Network | undefined;
+  private socket: WebSocketSubject<WebsocketEvent> | undefined;
 
   constructor(
     private readonly http: HttpClient,
   ) {
   }
 
+  public subscribe(): Observable<WebsocketEvent> {
+    return webSocket<WebsocketEvent>("wss://socket.dvb.solutions")
+      .pipe(tap(event => {
+        const ele = this.network?.[`${event.line}`]?.[`${event.run_number}`];
+        if (!ele) {
+          return;
+        }
+
+        ele.junction = event.junction;
+        ele.request_status = event.request_status;
+        ele.time_stamp = Number(event.time);
+      }));
+  }
+
   private loadRegions(): Observable<void> {
-    return this.http.get<{ data: Regions; }>("assets/stops/all.json")
+    return this.http.get<{ data: Regions; }>("/assets/stops/all.json")
       .pipe(tap(({data}) => this.regions = data), switchMap(() => of(void 0)));
   }
 
