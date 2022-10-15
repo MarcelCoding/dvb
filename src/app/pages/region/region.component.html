@@ -8,8 +8,7 @@
 <!--  </li>-->
 <!--</ul>-->
 
-<app-map *ngIf="data; else loading" [elements]="elements"></app-map>
+<app-map *ngIf="region; else loading"></app-map>
 <ng-template #loading>
   Loading...
 </ng-template>
-

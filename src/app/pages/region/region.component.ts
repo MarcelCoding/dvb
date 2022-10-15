@@ -1,56 +1,41 @@
-import {Component, OnDestroy, OnInit} from "@angular/core";
-import {ActivatedRoute} from "@angular/router";
-import {map, mergeMap, Subscription, switchMap} from "rxjs";
-import {ApiService} from "../../../_domain/api.service";
-import {Network} from "../../../_domain/domain";
-import {Element} from "../../../_core/map/map.component";
+import {AfterViewInit, Component, OnDestroy, OnInit, ViewChild} from "@angular/core";
+import {ActivatedRoute, Router} from "@angular/router";
+import {catchError, of, Subscription, switchMap, throwError} from "rxjs";
+import {Region, RegionService} from "../../../_domain/region.service";
+import {MapComponent} from "../../../_core/map/map.component";
 
 @Component({
   selector: "app-region",
   templateUrl: "./region.component.html",
   styleUrls: ["./region.component.scss"],
 })
-export class RegionComponent implements OnInit, OnDestroy {
+export class RegionComponent implements AfterViewInit, OnDestroy {
 
-  protected data: Network | undefined;
-  protected elements: Element[] = [];
   private subscription: Subscription | undefined;
 
+  @ViewChild(MapComponent)
+  private map!: MapComponent;
+
   constructor(
+    private readonly router: Router,
     private readonly route: ActivatedRoute,
-    private readonly apiService: ApiService,
+    private readonly regionService: RegionService,
   ) {
   }
 
-  ngOnInit(): void {
-    this.subscription = this.route.params.pipe(
-      mergeMap(({id}) => this.apiService.selectRegion(id)),
-      switchMap(() => this.apiService.subscribe()),
-      map(() => this.apiService.network!),
-    )
-      .subscribe(data => {
-        this.data = data;
-        this.elements.length = 0;
+  protected get region(): Region | undefined {
+    return this.regionService.region;
+  }
 
-        for (const line of Object.values(this.data)) {
-        const unknown = [];
-          for (const run of Object.values(line)) {
-            const junction = this.apiService.getJunction(run.junction, run.direction, run.request_status);
-            if (junction) {
-              this.elements.push({lat: junction.lat, lon: junction.lon, text: `${run.line}`});
-            }
-            else {
-              console.log("Couldn't find a junction.", run);
-              unknown.push(run);
-            }
-          }
-          for (let u of unknown) {
-            delete line[`${u.run_number}`];
-          }
-        }
-
-        console.log(this.data);
-        console.log(this.elements);
+  ngAfterViewInit(): void {
+    this.route.params
+      .pipe(switchMap(({id}) => this.regionService.loadRegion(id)))
+      .subscribe({
+        next: region => this.map.move(region.lat, region.lon, region.zoom),
+        error: error => {
+          if (error === "NOT_FOUND") this.router.navigate(["/"]).then();
+          else console.error(error);
+        },
       });
   }
 

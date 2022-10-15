@@ -11,7 +11,10 @@
 
 <section>
   <h1>Regions</h1>
-  <ul>
-    <li><a routerLink="/0">Dresden</a></li>
+  <ul *ngIf="regions; else loading">
+    <li *ngFor="let region of regions; trackBy trackBy"><a [routerLink]="region.slug">{{region.name}}</a></li>
   </ul>
+  <ng-template #loading>
+    <p>Loading...</p>
+  </ng-template>
 </section>

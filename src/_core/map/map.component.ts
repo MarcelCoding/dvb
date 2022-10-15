@@ -1,7 +1,6 @@
-import {ChangeDetectionStrategy, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges} from "@angular/core";
+import {ChangeDetectionStrategy, Component, ElementRef, OnDestroy, OnInit} from "@angular/core";
 import {CommonModule} from "@angular/common";
 import Map from "ol/Map";
-import View from "ol/View";
 import OSM from "ol/source/OSM";
 import TileLayer from "ol/layer/Tile";
 import RenderEvent from "ol/render/Event";
@@ -10,11 +9,13 @@ import {Point} from "ol/geom";
 import {transform} from "ol/proj";
 import {Fill, Stroke, Style, Text} from "ol/style";
 import CircleStyle from "ol/style/Circle";
+import {toXZ} from "../utils";
+import {Coordinate} from "ol/coordinate";
 
 export interface Element {
-  lat: number,
-  lon: number,
-  text: string,
+  getCoordinate(): Coordinate;
+
+  getLabel(): string;
 }
 
 @Component({
@@ -24,10 +25,8 @@ export interface Element {
   template: "",
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MapComponent implements OnInit {
+export class MapComponent implements OnInit, OnDestroy {
 
-  @Input()
-  public elements: Element[] | undefined;
   private map: Map | undefined;
 
   constructor(
@@ -39,39 +38,26 @@ export class MapComponent implements OnInit {
     const tileLayer = new TileLayer({source: new OSM()});
     tileLayer.on("postrender", event => this.onPostRender(event));
 
-    this.map = new Map({
-      view: new View({
-        center: transform([13.7325942, 51.0510431], "EPSG:4326", "EPSG:3857"),
-        zoom: 12.5,
-      }),
-      layers: [tileLayer],
-    });
-    this.map?.setTarget(this.elementRef.nativeElement);
+    this.map = new Map({layers: [tileLayer]});
+    this.map.setTarget(this.elementRef.nativeElement);
+  }
+
+  ngOnDestroy(): void {
+    this.map?.dispose();
   }
 
   private onPostRender(event: RenderEvent): void {
-    console.log(this.elements);
-    if (!this.elements) {
+    const context = getVectorContext(event);
+
+  }
+
+  public move(lat: number, lon: number, zoom: number): void {
+    if (!this.map) {
       return;
     }
 
-    const context = getVectorContext(event);
-
-    for (const element of this.elements) {
-      context.setStyle(new Style({
-        image: new CircleStyle({
-          radius: 10,
-          fill: new Fill({color: "yellow"}),
-          stroke: new Stroke({color: "red", width: 1}),
-        }),
-        text: new Text({
-          text: element.text,
-          font: "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
-        }),
-      }));
-
-      const circle = new Point(transform([element.lon, element.lat], "EPSG:4326", "EPSG:3857"));
-      context.drawPoint(circle);
-    }
+    const view = this.map.getView();
+    view.setZoom(zoom);
+    view.setCenter(toXZ({lat, lon}));
   }
 }

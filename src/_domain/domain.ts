@@ -12,7 +12,8 @@ export type Network = Record<string, Line>;
 export type Line = Record<string, Run>;
 
 export interface Run {
-  junction: number,
+  last_update: string,
+  reporting_point: number,
   line: number,
   run_number: number,
   time_stamp: number,
@@ -38,3 +39,4 @@ export interface WebsocketEvent {
   destination_number: number,
   train_length: number,
 }
+
