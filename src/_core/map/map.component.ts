@@ -1,13 +1,14 @@
 import {ChangeDetectionStrategy, Component, ElementRef, OnDestroy, OnInit} from "@angular/core";
 import {CommonModule} from "@angular/common";
-import Map from "ol/Map";
+import OlMap from "ol/Map";
 import OSM from "ol/source/OSM";
 import TileLayer from "ol/layer/Tile";
 import {Coordinate} from "ol/coordinate";
-import {View} from "ol";
+import {Feature, View} from "ol";
 import {debounceTime, distinct, Subject} from "rxjs";
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
+import {Geometry} from "ol/geom";
 
 export interface Location {
   x: number;
@@ -25,10 +26,11 @@ export interface Location {
 export class MapComponent implements OnInit, OnDestroy {
 
   private vectorSource: VectorSource | undefined;
-  private map: Map | undefined;
+  private map: OlMap | undefined;
 
   private readonly location0: Subject<Location> = new Subject<Location>();
   public readonly location = this.location0.pipe(distinct(), debounceTime(50));
+  private readonly features: Map<string, Feature<Geometry>> = new Map<string, Feature<Geometry>>();
 
   constructor(
     private elementRef: ElementRef<HTMLElement>,
@@ -51,8 +53,13 @@ export class MapComponent implements OnInit, OnDestroy {
     view.on("change:center", onLocationChange);
 
     this.vectorSource = new VectorSource();
+    if (this.features.size) {
+      for (const feature of this.features.values()) {
+        this.vectorSource.addFeature(feature);
+      }
+    }
 
-    this.map = new Map({
+    this.map = new OlMap({
       view,
       layers: [
         new TileLayer({source: new OSM()}),
@@ -64,6 +71,28 @@ export class MapComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.map?.dispose();
+  }
+
+  public getFeature(id: string): Feature<Geometry> | undefined {
+    return this.features.get(id);
+  }
+
+  public removeFeature(id: string): void {
+    const existing = this.features.get(id);
+    if (existing) {
+      this.features.delete(id);
+      this.vectorSource?.removeFeature(existing);
+    }
+  }
+
+  public setFeature(id: string, feature: Feature<Geometry>): void {
+    const existing = this.features.get(id);
+    this.features.set(id, feature);
+
+    if (existing) {
+      this.vectorSource?.removeFeature(existing);
+    }
+    this.vectorSource?.addFeature(feature);
   }
 
   public move(coordinate: Coordinate, zoom: number): void {

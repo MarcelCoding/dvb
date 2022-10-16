@@ -20,7 +20,7 @@ type RegionResponse = Record<string, Record<string, { properties: { epsg3857: { 
 export class RegionService implements OnDestroy {
 
   private readonly _regions: Map<number, Region> = new Map<number, Region>();
-  private readonly locations: Map<number, Coordinate> = new Map<number, Coordinate>();
+  private readonly reportingPoints: Map<number, Coordinate> = new Map<number, Coordinate>();
   private readonly _regionId: BehaviorSubject<number | undefined> = new BehaviorSubject<number | undefined>(undefined);
 
   constructor(
@@ -41,8 +41,8 @@ export class RegionService implements OnDestroy {
     return id === undefined ? undefined : this.regions.get(id);
   }
 
-  public getLocation(id: number): Coordinate | undefined {
-    return this.locations.get(id);
+  public getReportingPoint(id: number): Coordinate | undefined {
+    return this.reportingPoints.get(id);
   }
 
   public loadRegions(): Observable<Region[]> {
@@ -80,18 +80,18 @@ export class RegionService implements OnDestroy {
           return throwError(() => "NOT_FOUND");
         }
 
-        this.locations.clear();
+        this.reportingPoints.clear();
         this._regionId.next(region.id);
 
         return this.http.get<RegionResponse>(`/assets/region/${(region.id)}.json`)
           .pipe(map(data => ({region, data: data[`${region.id}`]})));
       }),
       map(({region, data}) => {
-        this.locations.clear();
+        this.reportingPoints.clear();
 
         for (const id in data) {
           const {x, y} = data[id].properties.epsg3857;
-          this.locations.set(parseInt(id, 10), [x, y]);
+          this.reportingPoints.set(parseInt(id, 10), [x, y]);
         }
 
         return region;

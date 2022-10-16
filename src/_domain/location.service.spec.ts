@@ -1,6 +1,6 @@
-import { TestBed } from "@angular/core/testing";
+import {TestBed} from "@angular/core/testing";
 
-import { RegionService } from "./region.service";
+import {RegionService} from "./region.service";
 
 describe("LocationService", () => {
   let service: RegionService;
