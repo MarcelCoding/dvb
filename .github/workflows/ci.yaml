@@ -55,7 +55,7 @@ jobs:
           cache: 'pnpm'
 
       - run: pnpm install
-      - run: pnpm run build:ci --output-path=./dist
+      - run: pnpm run build:ci
 
       - uses: actions/upload-artifact@v3
         with:
