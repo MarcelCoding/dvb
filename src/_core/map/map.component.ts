@@ -74,6 +74,10 @@ export class MapComponent implements OnInit, OnDestroy {
     this.map?.dispose();
   }
 
+  public getFeatureIds(): IterableIterator<string> {
+    return this.features.keys();
+  }
+
   public getFeature(id: string): Feature<Geometry> | undefined {
     return this.features.get(id);
   }

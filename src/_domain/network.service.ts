@@ -9,7 +9,8 @@ import {webSocket} from "rxjs/webSocket";
 export interface Vehicle {
   line: string;
   run: number;
-  coordinate: Coordinate,
+  coordinate: Coordinate;
+  lastSeen: number;
 }
 
 interface NetworkEntry {
@@ -38,8 +39,9 @@ export class NetworkService {
       return of([]);
     }
 
-    return this.http.get<{ network: Network }>(`${environment.api}/vehicles/${regionId}/all`)
-      .pipe(map(({network}) => {
+    return this.http.get<{ network: Network, time_stamp: number }>(`${environment.api}/vehicles/${regionId}/all`)
+      .pipe(map(({network, time_stamp}) => {
+        const timeDiff = Date.now() - time_stamp * 1000;
         const vehicles = [];
 
         for (const line of Object.values(network)) {
@@ -55,6 +57,7 @@ export class NetworkService {
               line: run.line,
               run: run.run_number,
               coordinate,
+              lastSeen: Date.parse(`${run.last_update}+00:00`) + timeDiff,
             });
           }
         }
@@ -71,11 +74,12 @@ export class NetworkService {
           line: data.line,
           run: data.run_number,
           coordinate: this.regionService.getReportingPoint(data.reporting_point),
+          lastSeen: Date.now(),
         })),
         // remove unknown reporting points
         filter(({coordinate}) => Boolean(coordinate)),
         // hacky typing workaround
-        map(data => ({line: data.line, run: data.run, coordinate: data.coordinate!})),
+        map(data => ({line: data.line, run: data.run, coordinate: data.coordinate!, lastSeen: data.lastSeen})),
       );
   }
 }
