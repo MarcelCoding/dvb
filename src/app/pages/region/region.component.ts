@@ -50,6 +50,7 @@ export class RegionComponent implements AfterViewInit, OnDestroy {
           this.map.location.pipe(switchMap(data => this.router.navigate([], {
             queryParams: data,
             queryParamsHandling: "merge",
+            replaceUrl: true,
           }))),
           concat(
             this.networkService.loadWholeNetwork().pipe(switchMap(e => from(e))),
