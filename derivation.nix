@@ -1,25 +1,23 @@
-{ pkgs, lib, config, stdenv, domain, mkYarnPackage }:
-stdenv.mkDerivation {
-  name = "windshield";
-  src = mkYarnPackage {
+{ pkgs, lib, config, domain, mkYarnPackage, yarn }:
+mkYarnPackage {
     name = "windshield-compressed";
     src = ./.;
-  };
 
-  buildPhase = ''
-    mkdir -p ./decompressed
-
-    ls -alh
-    ls -alh tarballs
-  
-    cd decompressed 
-    tar xf ../tarballs/windshield-compressed.tgz
-  '';
-
-  installPhase = ''
-    mkdir -p $out/bin
+    yarnLock = ./yarn.lock;
     
-    ls -alh
-    cp -r ./package/src/* $out/bin
-  '';
+    buildInputs = [ yarn ];
+
+    configurePhase = ''
+      cp -r $node_modules node_modules
+      chmod 777 -R ./node_modules 
+      chmod +w node_modules
+    '';
+    buildPhase = ''
+      yarn build
+    '';
+    installPhase = ''
+      mkdir -p $out/bin
+      cp -r ./dist/* $out/bin
+    '';
+    distPhase = "true";
 }
