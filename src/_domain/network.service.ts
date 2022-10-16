@@ -1,7 +1,7 @@
 import {Injectable} from "@angular/core";
 import {RegionService} from "./region.service";
 import {HttpClient} from "@angular/common/http";
-import {map, Observable, of, tap} from "rxjs";
+import {filter, map, Observable, of, tap} from "rxjs";
 import {environment} from "../environments/environment";
 import {Coordinate} from "ol/coordinate";
 import {webSocket} from "rxjs/webSocket";
@@ -66,7 +66,18 @@ export class NetworkService {
   }
 
   public subscribeToUpdates(): Observable<Vehicle> {
-    return webSocket(environment.live)
-      .pipe(tap(console.log));
+    // TODO: filter for region
+    return webSocket<{ line: string, run_number: number, reporting_point: number }>(environment.live)
+      .pipe(
+        map(data => ({
+          line: data.line,
+          run: data.run_number,
+          coordinate: this.regionService.getReportingPoint(data.reporting_point),
+        })),
+        // remove unknown reporting points
+        filter(({coordinate}) => Boolean(coordinate)),
+        // hacky typing workaround
+        map(data => ({line: data.line, run: data.run, coordinate: data.coordinate!})),
+      );
   }
 }

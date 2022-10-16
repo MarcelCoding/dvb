@@ -6,7 +6,7 @@ import {MapComponent} from "../../../_core/map/map.component";
 import {NetworkService, Vehicle} from "../../../_domain/network.service";
 import {Point} from "ol/geom";
 import {Feature} from "ol";
-import {Fill, Stroke, Style, Text} from "ol/style";
+import {Fill, Stroke, Style, Text, Icon} from "ol/style";
 
 @Component({
   selector: "app-region",
@@ -52,8 +52,8 @@ export class RegionComponent implements AfterViewInit, OnDestroy {
             queryParamsHandling: "merge",
           }))),
           concat(
-            this.networkService.loadWholeNetwork().pipe(tap(console.log), switchMap(e => from(e)), tap(console.log)),
-            this.networkService.subscribeToUpdates(),
+            this.networkService.loadWholeNetwork().pipe(switchMap(e => from(e))),
+            this.networkService.subscribeToUpdates().pipe(tap(console.log)),
           ).pipe(tap(vehicle => this.handleVehicle(vehicle))),
         ])),
       )
@@ -71,7 +71,6 @@ export class RegionComponent implements AfterViewInit, OnDestroy {
 
   private handleVehicle(vehicle: Vehicle): void {
     const id = `${vehicle.line}_${vehicle.run}`;
-    console.log(id);
 
     const feature = this.map.getFeature(id);
     if (feature) {
@@ -79,20 +78,19 @@ export class RegionComponent implements AfterViewInit, OnDestroy {
       feature.changed();
     }
     else {
-      const feature = new Feature(new Point(vehicle.coordinate));
+      const feature = new Feature({
+        geometry: new Point(vehicle.coordinate),
+        // TODO: lastSeen: null
+      });
       const iconStyle = new Style({
+        image: new Icon({src: "/assets/images/vehicle.svg"}),
         text: new Text({
+          offsetY: -3,
           text: `${vehicle.line}`,
-          // font: 'Calibri',
-          // fill: new Fill({color: 'black'}),
-          // stroke: new Stroke({
-          //   color: 'white',
-          //   width: 2,
-          // }),
+          fill: new Fill({color: "#000"}),
         }),
       });
       feature.setStyle(iconStyle);
-      console.log(vehicle.line)
 
       this.map.setFeature(id, feature);
     }

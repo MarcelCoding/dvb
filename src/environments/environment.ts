@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   api: "https://api.staging.dvb.solutions",
-  live: "https://socket.staging.dvb.solutions",
+  live: "wss://socket.staging.dvb.solutions",
 };
 
 /*

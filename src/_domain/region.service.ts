@@ -83,8 +83,8 @@ export class RegionService implements OnDestroy {
         this.reportingPoints.clear();
         this._regionId.next(region.id);
 
-        return this.http.get<RegionResponse>(`/assets/region/${(region.id)}.json`)
-          .pipe(map(data => ({region, data: data[`${region.id}`]})));
+        return this.http.get<{data: RegionResponse}>(`/assets/region/${(region.id)}.json`)
+          .pipe(map(data => ({region, data: data.data[`${region.id}`]})));
       }),
       map(({region, data}) => {
         this.reportingPoints.clear();
