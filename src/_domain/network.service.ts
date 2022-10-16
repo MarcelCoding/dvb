@@ -1,12 +1,10 @@
 import {Injectable} from "@angular/core";
 import {RegionService} from "./region.service";
 import {HttpClient} from "@angular/common/http";
-import {filter, map, Observable, of, tap} from "rxjs";
+import {filter, map, Observable, of} from "rxjs";
 import {environment} from "../environments/environment";
 import {Coordinate} from "ol/coordinate";
 import {webSocket} from "rxjs/webSocket";
-import {TEXT_ALIGN} from "ol/render/canvas/TextBuilder";
-import right = TEXT_ALIGN.right;
 
 export interface Vehicle {
   line: string;

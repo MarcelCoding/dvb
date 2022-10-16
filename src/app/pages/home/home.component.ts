@@ -13,8 +13,8 @@ import {Subscription} from "rxjs";
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
-  private subscription: Subscription | undefined;
   protected regions: Region[] | undefined;
+  private subscription: Subscription | undefined;
 
   constructor(
     private readonly regionService: RegionService,

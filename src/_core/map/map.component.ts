@@ -4,11 +4,12 @@ import OlMap from "ol/Map";
 import OSM from "ol/source/OSM";
 import TileLayer from "ol/layer/Tile";
 import {Coordinate} from "ol/coordinate";
-import {Feature, View} from "ol";
 import {debounceTime, distinct, Subject} from "rxjs";
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
-import {Geometry} from "ol/geom";
+import Geometry from "ol/geom/Geometry";
+import Feature from "ol/Feature";
+import View from "ol/View";
 
 export interface Location {
   x: number;

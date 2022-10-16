@@ -1,12 +1,15 @@
 import {AfterViewInit, Component, OnDestroy, ViewChild} from "@angular/core";
 import {ActivatedRoute, Router} from "@angular/router";
-import {concat, forkJoin, from, of, Subscription, switchMap, tap} from "rxjs";
+import {concat, forkJoin, from, Subscription, switchMap, tap} from "rxjs";
 import {Region, RegionService} from "../../../_domain/region.service";
 import {MapComponent} from "../../../_core/map/map.component";
 import {NetworkService, Vehicle} from "../../../_domain/network.service";
-import {Point} from "ol/geom";
-import {Feature} from "ol";
-import {Fill, Stroke, Style, Text, Icon} from "ol/style";
+import Point from "ol/geom/Point";
+import Fill from "ol/style/Fill";
+import Style from "ol/style/Style";
+import Text from "ol/style/Text";
+import Icon from "ol/style/Icon";
+import Feature from "ol/Feature";
 
 @Component({
   selector: "app-region",
